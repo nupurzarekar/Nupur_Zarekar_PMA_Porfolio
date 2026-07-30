@@ -1,1 +1,1 @@
-# nupurzarekarpmaporfolio.github.io
+# nupurzarekarpmaporfolio.io
