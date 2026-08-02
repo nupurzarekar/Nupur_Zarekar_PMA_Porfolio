@@ -446,7 +446,7 @@ Resources:`;for(let t of c){if(!t||typeof t!=`string`)throw Error(`@supabase/aut
   var TECH = ["AI Dev tools (spec + build)","React front-end","Relational DB","Role-based auth","PDF / Excel / CSV export","Multi-branch data model"];
 
   function build(){
-    var scope = Array.from(document.querySelectorAll('p')).find(function(el){ return /Scope shipped\s*—\s*20+ modules/i.test(el.textContent||''); });
+    var scope = Array.from(document.querySelectorAll('p')).find(function(el){ return /Scope shipped\s*—\s*20\+\s*modules/i.test(el.textContent||''); });
     if(!scope) return false;
     var container = scope.closest('div');
     if(!container || container.parentElement.querySelector('.erp-highlights')) return true;
